@@ -2,6 +2,35 @@
 
 This project implements a PDF Question Answering system using LangChain, Ollama, and Streamlit. It allows users to upload PDF documents and ask questions about their content, getting AI-powered responses based on the document's content.
 
+## Why Ollama?
+
+This project uses Ollama instead of cloud-based APIs for several key advantages:
+
+1. **Privacy & Security**
+   - All processing happens locally on your machine
+   - No data is sent to external servers
+   - Complete control over your documents and queries
+
+2. **Cost-Effective**
+   - No API usage fees or subscription costs
+   - No token-based pricing
+   - Free to use without limitations
+
+3. **Offline Capability**
+   - Works without internet connection
+   - No dependency on external services
+   - Consistent performance regardless of network status
+
+4. **Customization**
+   - Ability to use different models locally
+   - Custom model fine-tuning possibilities
+   - Full control over model parameters
+
+5. **Performance**
+   - Lower latency as everything runs locally
+   - No rate limiting or API quotas
+   - Consistent response times
+
 ## Features
 
 - PDF document upload and processing
